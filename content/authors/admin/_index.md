@@ -8,7 +8,7 @@ education:
     institution: University of Glasgow
     year: 2019
   - course: MSc in Marine Biology
-    institution: Dalhousies University
+    institution: Dalhousie University
     year: 2014
   - course: BSc in Marine Biology, 1st Class
     institution: University of St. Andrews
