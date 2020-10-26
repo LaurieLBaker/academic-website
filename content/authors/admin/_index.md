@@ -4,23 +4,24 @@ authors:
 bio: My research interests include disease ecology, marine biology, and teaching.
 education:
   courses:
-  - course: PhD in Ecology
+  - course: PhD in Biology
     institution: University of Glasgow
     year: 2019
   - course: MSc in Marine Biology
     institution: Dalhousie University
     year: 2014
-  - course: BSc in Marine Biology
+  - course: BSc in Marine Biology, 1st Class
     institution: University of St. Andrews
     year: 2011
-email: ""
+email: "laurie.baker@glasgow.ac.uk"
 interests:
 - Spatial Statistics
 - Disease Ecology
 - Marine Biology
+- Reproducible Research
 organizations:
 - name: Data Science Campus, Office for National Statistics
-  url: ""
+  url: "http://datasciencecampus.ons.gov.uk/"
 role: Data Science Lecturer
 social:
 - icon: envelope
@@ -42,6 +43,6 @@ user_groups:
 - Visitors
 ---
 
-Laurie Baker is a Data Science Lecturer at the Department for International Development/Office for National Statistics. She is a Disease Ecologist and Marine Biologist by training with a keen interest in programming and the use of novel data sources.
+I am a Data Science Lecturer at the [Data Science Campus](http://datasciencecampus.ons.gov.uk/), Office for National Statistics and an Affiliate Researcher at the University of Glasgow. I am a disease ecologist and marine biologist by training with a keen interest in programming, data science, and the use of novel data sources in research.
 
 
