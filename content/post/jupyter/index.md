@@ -2,13 +2,13 @@
 authors:
 - admin
 categories: []
-date: "2019-02-05T00:00:00Z"
+date: "2012-02-05T00:00:00Z"
 draft: false
 featured: false
 image:
   caption: ""
   focal_point: ""
-lastMod: "2019-09-05T00:00:00Z"
+lastMod: "2012-09-05T00:00:00Z"
 projects: []
 subtitle: Learn how to blog in Academic using Jupyter notebooks
 summary: Learn how to blog in Academic using Jupyter notebooks
