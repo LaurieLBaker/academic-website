@@ -13,7 +13,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-lastmod: "2013-04-17T00:00:00Z"
+lastmod: "2013-05-17T00:00:00Z"
 projects: []
 subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
 summary: Create a beautifully simple website in under 10 minutes.
