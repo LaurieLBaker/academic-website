@@ -1,11 +1,15 @@
 ---
-date: "2016-04-27T00:00:00Z"
-external_link: http://example.org
+date: "2014-09-30T00:00:00Z"
+external_link: http://oceantrackingnetwork.org/
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Grey seal with GPS tag. Photo by Damian Lidgard
   focal_point: Smart
-summary: An example of linking directly to an external project website using `external_link`.
+summary: My masters work with the [Ocean Tracking Network](http://oceantrackingnetwork.org/) focused on grey seals (*Halichoerus grypus*) as bioprobes. 
 tags:
-- Demo
-title: External Project
+- Scotian Shelf
+- Halichoerus grypus
+- Telemetry
+- GPS Tags 
+- Acoustics
+title: Grey Seals on the Scotian Shelf
 ---
