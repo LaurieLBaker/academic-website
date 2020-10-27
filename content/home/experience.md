@@ -40,7 +40,7 @@ date_format = "Jan 2006"
   location = "Scotland"
   date_start = "2018-08-01"
   date_end = "2019-09-01"
-  description = """I developed a non-separable space-time log-Gaussian Cox model in R-INLA to model the realistic space-time evolution of fox rabies spread."""
+  description = """I developed a non-separable space-time log-Gaussian Cox model in R-INLA to model the realistic space-time evolution of fox rabies spread. As part of my fellowship I spent 5 months at the Universidade Federal do Paraná in Brazil working with Dr. Elias Krainski."""
 
 
 [[experience]]
