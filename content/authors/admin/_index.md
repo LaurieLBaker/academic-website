@@ -18,7 +18,7 @@ interests:
 - Spatial Statistics
 - Disease Ecology
 - Marine Biology
-- Reproducible Research
+- Open Science
 organizations:
 - name: Data Science Campus, Office for National Statistics
   url: "http://datasciencecampus.ons.gov.uk/"

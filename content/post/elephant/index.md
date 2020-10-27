@@ -1,13 +1,15 @@
 ---
-date: "2016-06-22"
+date: "2015-11-05"
 diagram: true
 image:
   caption: 
   placement: 4
 math: true
-title: Conversations with an R Jedi
+title: Nature's Greatest Masterpiece
 ---
 
-As much as we love it or hate it, programming plays an increasingly important part in biological research. In this episode of *Naturally Speaking Shorts*, Laurie Baker (@llbaker1707) speaks to Hadley Wickham, Chief Scientist at RStudio, about the ins and outs of programming. Hadley’s job, put simply, is writing software that helps people make sense of their data — making programming and data analysis in the statistical programme R less painful.
+Humans have a complex relationship and checkered history with elephants. Once the revered subjects of myths and legends, elephants have increasingly become the objects of economic greed and the victims of habitat loss.
 
-Original podcast published on [naturally speaking](https://naturallyspeaking.blog/2016/06/22/episode-41-conversations-with-an-r-jedi/)
+In this episode of Naturally Speaking Shorts, Laurie Baker (@llbaker1707) is joined by elephant researcher, Prof. Phyllis Lee, Director of Science for the Amboseli Elephant Research Project in Kenya and Professor of Psychology at the University of Stirling. Phyllis has spent the last 35+ years studying the social relationships and life history of elephants in Amboseli, and boy do those elephants have personality!
+
+Tune into the original podcast published on [naturally speaking](https://naturallyspeaking.blog/2015/11/05/episode-32-natures-greatest-masterpiece/)
