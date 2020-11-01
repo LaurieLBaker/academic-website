@@ -51,7 +51,7 @@ subtitle = "latest"
  css_class = ""
 +++
 
-<iframe width = "100%", height = "500" class="shortcode-iframe" src="../../static/leaflet/work_map/index.html"></iframe>
+<iframe width = "100%", height = "500" class="shortcode-iframe" src="../../static/leaflet/work_map.html"></iframe>
 
 
 {{% alert note %}}
