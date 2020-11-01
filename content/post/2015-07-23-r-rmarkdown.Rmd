@@ -1,37 +1,156 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
+title: "Where I work"
+author: "Laurie Baker"
 date: 2015-07-23T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+categories: ["R", "Leaflet"]
+tags: ["R Markdown", "leaflet"]
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown
+## Loading libraries
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+To create the interactive map I used the following libraries. Note that the library `fontawesome` is installed using devtools from github. 
 
-You can embed an R code chunk like this:
+```{r}
 
-```{r cars}
-summary(cars)
-fit <- lm(dist ~ speed, data = cars)
-fit
+library(leaflet)
+library(htmltools)
+library(fontawesome) #devtools::install_github("rstudio/fontawesome")
+
+
 ```
 
-# Including Plots
 
-You can also embed plots. See Figure \@ref(fig:pie) for example:
+## Creating the data frame.
 
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
-par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
-  col = c('#0292D8', '#F7EA39', '#C4B632'),
-  init.angle = -50, border = NA
+I created a `work` data frame containing details of the latitude and longitude of locations where I've worked. 
+
+```{r data, echo = FALSE}
+
+work <- data.frame(
+  "location" = c("Valparaiso, Chile", 
+                 "Curitiba, Brasil", 
+                 "Sable Island, Nova Scotia", 
+                 "Greifswald, Germany",
+                 "Arusha, Tanzania",
+                 "Kigali, Rwanda",
+                 "Kingston, Jamaica",
+                 "Asuncion, Paraguay",
+                 "East Kilbride, Scotland"), 
+  "institute" = c("Instituto de Fomento Pesquero", 
+                  "Universidade Federal do Parana", 
+                  "Dalhousie University", 
+                  "Friedrich Loeffler Institut",
+                  "Nelson Mandela African Institute of Science and Technology",
+                  "National Institute of Statistics Rwanda",
+                  "Carribean Statistical Offices",
+                  "Ministry of Health and Education",
+                  "Foreign Commonwealth Development Office"), 
+  "work" = c("Chilean Pink Cusk Eel", 
+             "Fox rabies", 
+             "Grey seals", 
+             "Fox rabies",
+             "Teaching",
+             "Teaching",
+             "Teaching",
+             "Teaching",
+             "Teaching"), 
+  "lat" = c(-33.0472, 
+            -25.4290, 
+            43.9337, 
+            54.0865,
+            -3.3995,
+            -1.9415,
+            18.0179,
+            -25.2637,
+            55.760869), 
+  "lon" = c(-71.6127, 
+            -49.2671, 
+            -59.9149, 
+            13.3923,
+            36.7968,
+            30.0574,
+            -76.8099,
+            -57.5759,
+            -4.22407), 
+  "link" = c("<b><a href='http://lauriebaker.rbind.io/#projects'>Chilean Pink-cusk eel</a></b>", 
+             "<b><a href='http://lauriebaker.rbind.io/project/internal-project/'>Outfoxing Rabies</a></b>", 
+             "<b><a href='http://lauriebaker.rbind.io/#projects'>Grey Seals as Bioprobes</a></b>",  
+             "<b><a href='http://lauriebaker.rbind.io/project/internal-project/'>Outfoxing Rabies</a></b>",  
+             "<b><a href='http://lauriebaker.rbind.io/courses/'>R Training</a></b>",  
+             "<b><a href='http://lauriebaker.rbind.io/courses/'>R Training</a></b>",  
+             "<b><a href='http://lauriebaker.rbind.io/courses/'>R Training</a></b>",
+             "<b><a href='http://lauriebaker.rbind.io/courses/'>R Training</a></b>",
+             "<b><a href='http://lauriebaker.rbind.io/courses/'>R Training Courses</a></b>"), 
+  "icon" = c("fish", 
+             "disease", 
+             "gps", 
+             "disease",
+             "training",
+             "training",
+             "training",
+             "training", 
+             "training"))
+
+
+```
+
+```{r head data}
+
+head(work)
+
+```
+
+
+## Creating the labels
+
+Next, I created the labels and icons to use on the map. I wanted to include a label including the institute where the work was carried out and also a link to the relevant page on my website. 
+
+```{r labels}
+
+labels <- sprintf(
+  "<strong>%s</strong><br/>Project: %s",
+  work$institute, work$link
+) %>% lapply(htmltools::HTML)
+
+```
+
+## Creating the icons using `aweomseIconList`
+
+I wanted to distinguish the different types of projects on the map (using symbols for my projects relating to dish, fish , and gps satellite tracking) and also I wanted to highlight the R training sessions I've run. I used different icons from the `fontawesome` package and used the argument `markerColor` to distinguish between training sessions and projects. 
+
+
+```{r icons}
+
+iconset <- awesomeIconList(
+   fish = makeAwesomeIcon(text = fa("fish")),
+   gps = makeAwesomeIcon(text = fa("satellite")),
+   disease = makeAwesomeIcon(text = fa("syringe")),
+   training = makeAwesomeIcon(text = fa("r-project"))
 )
+
+iconset2 <- awesomeIconList(
+   fish = makeAwesomeIcon(text = fa("fish"), markerColor = "green"),
+   gps = makeAwesomeIcon(text = fa("satellite"), markerColor = "green"),
+   disease = makeAwesomeIcon(text = fa("syringe"), markerColor = "green"),
+   training = makeAwesomeIcon(text = fa("r-project"), markerColor = "purple")
+)
+
+
+```
+
+
+# Creating the leaflet map
+
+```{r map, fig.cap='leaflet map'}
+
+
+leaflet(work) %>% 
+  addProviderTiles(providers$Stamen.Watercolor) %>%
+  addProviderTiles(providers$Stamen.TerrainLabels) %>%
+  addAwesomeMarkers(~lon, ~lat, icon = ~iconset2[icon], popup = ~labels)
+
 ```
