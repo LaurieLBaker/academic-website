@@ -42,8 +42,6 @@ subtitle = "latest"
   # Customize the section spacing. Order is top, right, bottom, left.
   padding = ["20px", "0", "20px", "0"]
 
-<iframe width = "100%", height = "500" class="shortcode-iframe" src="../../static/leaflet/work_map/index.html"></iframe>
-
 
 [advanced]
  # Custom CSS. 
