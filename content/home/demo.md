@@ -5,10 +5,10 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "Demos"
+title = "Where I work"
 subtitle = "latest"
 
 [design]
@@ -42,6 +42,9 @@ subtitle = "latest"
   # Customize the section spacing. Order is top, right, bottom, left.
   padding = ["20px", "0", "20px", "0"]
 
+<iframe width = "100%", height = "500" class="shortcode-iframe" src="../../static/leaflet/work_map/index.html"></iframe>
+
+
 [advanced]
  # Custom CSS. 
  css_style = ""
@@ -49,7 +52,6 @@ subtitle = "latest"
  # CSS class.
  css_class = ""
 +++
-
 
 
 {{% alert note %}}
