@@ -2,7 +2,7 @@
 title: "Where I work"
 author: "Laurie Baker"
 date: 2015-07-23T21:13:14-05:00
-categories: ["R", "Leaflet"]
+categories: ["R"]
 tags: ["R Markdown", "leaflet"]
 ---
 
@@ -18,7 +18,9 @@ To create the interactive map I used the following libraries. Note that the libr
 
 library(leaflet)
 library(htmltools)
-library(fontawesome) #devtools::install_github("rstudio/fontawesome")
+library(fontawesome)
+library(htmlwidgets)
+#devtools::install_github("rstudio/fontawesome")
 
 
 ```
@@ -148,9 +150,35 @@ iconset2 <- awesomeIconList(
 ```{r map, fig.cap='leaflet map'}
 
 
-leaflet(work) %>% 
-  addProviderTiles(providers$Stamen.Watercolor) %>%
-  addProviderTiles(providers$Stamen.TerrainLabels) %>%
-  addAwesomeMarkers(~lon, ~lat, icon = ~iconset2[icon], popup = ~labels)
+(work_map <- leaflet(work) %>% 
+              addProviderTiles(providers$Stamen.Watercolor) %>%
+              addProviderTiles(providers$Stamen.TerrainLabels) %>%
+              addAwesomeMarkers(~lon, ~lat, icon = ~iconset2[icon], popup = ~labels))
 
 ```
+
+## Getting the leaflet map to render on the website
+
+After I've created the leaflet map, I need to save the .html and include it as an iframe. The first step is to use `htmlwidgets` and `htmltools` to create a widget. 
+
+
+```{r create directory, eval = FALSE}
+
+widget_path <- file.path("../../static/leaflet")
+
+dir.create(widget_path)
+```
+
+
+```{r save widget, eval = FALSE}
+saveWidget(work_map, file.path(widget_path,"work_map.html"))
+
+```
+
+
+```{r, eval = FALSE, echo = FALSE}
+iframe(width = "100%", height = "500",
+url_link = "../../static/leaflet/work_map/index.html")
+```
+
+
