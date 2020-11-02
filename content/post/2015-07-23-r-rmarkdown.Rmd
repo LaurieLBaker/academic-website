@@ -1,14 +1,21 @@
 ---
-title: "Where I work"
+title: 'Creating: Where I work'
 author: "Laurie Baker"
-date: 2015-07-23T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "leaflet"]
+date: '2020-11-02T21:13:14-05:00'
+categories: R
+tags:
+- R Markdown
+- leaflet
+- hugo
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
+
+# Creating the where I work map
+
+<iframe seamless = "" width = "100%", height = "500" class="shortcode-iframe" src="leaflet/work_map.html"></iframe>
 
 ## Loading libraries
 
@@ -48,8 +55,8 @@ work <- data.frame(
                   "Friedrich Loeffler Institut",
                   "Nelson Mandela African Institute of Science and Technology",
                   "National Institute of Statistics Rwanda",
-                  "Carribean Statistical Offices",
-                  "Ministry of Health and Education",
+                  "Carribean National Statistical Offices",
+                  "Paraguay Ministry of Health and Education",
                   "Foreign Commonwealth Development Office"), 
   "work" = c("Chilean Pink Cusk Eel", 
              "Fox rabies", 
@@ -120,7 +127,7 @@ labels <- sprintf(
 
 ```
 
-## Creating the icons using `aweomseIconList`
+## Creating the icons using `awesomeIconList`
 
 I wanted to distinguish the different types of projects on the map (using symbols for my projects relating to dish, fish , and gps satellite tracking) and also I wanted to highlight the R training sessions I've run. I used different icons from the `fontawesome` package and used the argument `markerColor` to distinguish between training sessions and projects. 
 
@@ -159,7 +166,7 @@ iconset2 <- awesomeIconList(
 
 ## Getting the leaflet map to render on the website
 
-After I've created the leaflet map, I need to save the .html and include it as an iframe. The first step is to use `htmlwidgets` and `htmltools` to create a widget. 
+After you've created the leaflet map, you'll need to save the .html and include it as an iframe. To incorporate this into your website you'll need to put the static folder. The first step is to use `htmlwidgets` and `htmltools` to create a widget. 
 
 
 ```{r create directory, eval = FALSE}
@@ -171,8 +178,15 @@ dir.create(widget_path)
 
 
 ```{r save widget, eval = FALSE}
+
 saveWidget(work_map, file.path(widget_path,"work_map.html"))
 
 ```
 
-<iframe width = "100%", height = "500" class="shortcode-iframe" src="../../static/leaflet/work_map.html"></iframe>
+When you save the map as a widget it creates the `work_map.html` file and also creates a folder with all the packages necessary to create the map. When you reference the map as an iframe you will want to reference it from within the "static" folder which contains images and other static features as below
+
+
+
+`<iframe seamless = "" width = "100%", height = "500" class="shortcode-iframe" src="/leaflet/work_map.html"></iframe>`
+
+
