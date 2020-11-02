@@ -1,7 +1,7 @@
 ---
-title: 'Creating: Where I work'
+title: 'Creating the where I work leaflet map'
 author: "Laurie Baker"
-date: '2015-07-23T21:13:14-05:00'
+date: '2020-11-02T21:13:14-05:00'
 categories: R
 tags:
 - R Markdown
@@ -28,6 +28,8 @@ tags:
 <script src="/rmarkdown-libs/bootstrap/bootstrap.min.js"></script>
 
 
+<p>In this post I’ll describe how I created my “Where I work” map using <code>leaflet</code> and how to include it in the hugo academic theme as an iframe.</p>
+<p>&lt;iframe seamless = "" width = “100%”, height = “500” class=“shortcode-iframe” src=“/leaflet/work_map.html”&gt;</iframe></p>
 <div id="loading-libraries" class="section level2">
 <h2>Loading libraries</h2>
 <p>To create the interactive map I used the following libraries. Note that the library <code>fontawesome</code> is installed using devtools from github.</p>
@@ -130,8 +132,10 @@ Figure 1: leaflet map
 widget_path &lt;- file.path(&quot;../../static/leaflet&quot;)
 
 dir.create(widget_path)</code></pre>
-<pre class="r"><code>saveWidget(work_map, file.path(widget_path,&quot;work_map.html&quot;))
+<pre class="r"><code>
+saveWidget(work_map, file.path(widget_path,&quot;work_map.html&quot;))
 </code></pre>
-<p>&lt;iframe seamless = "" width = “100%”, height = “500” class=“shortcode-iframe” src=“../../static/leaflet/work_map.html”&gt;</iframe></p>
+<p>When you save the map as a widget it creates the <code>work_map.html</code> file and also creates a folder with all the packages necessary to create the map. When you reference the map as an iframe you will want to reference it from within the “static” folder which contains images and other static features as below.</p>
+<p><code>&lt;iframe seamless = "" width = "100%", height = "500" class="shortcode-iframe" src="/leaflet/work_map.html"&gt;&lt;/iframe&gt;</code></p>
 </div>
 </div>

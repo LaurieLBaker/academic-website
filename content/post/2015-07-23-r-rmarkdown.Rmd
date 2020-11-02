@@ -1,5 +1,5 @@
 ---
-title: 'Creating: Where I work'
+title: 'Creating the where I work leaflet map'
 author: "Laurie Baker"
 date: '2020-11-02T21:13:14-05:00'
 categories: R
@@ -13,9 +13,9 @@ tags:
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# Creating the where I work map
+In this post I'll describe how I created my "Where I work" map using `leaflet` and how to include it in the hugo academic theme as an iframe. 
 
-<iframe seamless = "" width = "100%", height = "500" class="shortcode-iframe" src="leaflet/work_map.html"></iframe>
+<iframe seamless = "" width = "100%", height = "500" class="shortcode-iframe" src="/leaflet/work_map.html"></iframe>
 
 ## Loading libraries
 
@@ -183,7 +183,7 @@ saveWidget(work_map, file.path(widget_path,"work_map.html"))
 
 ```
 
-When you save the map as a widget it creates the `work_map.html` file and also creates a folder with all the packages necessary to create the map. When you reference the map as an iframe you will want to reference it from within the "static" folder which contains images and other static features as below
+When you save the map as a widget it creates the `work_map.html` file and also creates a folder with all the packages necessary to create the map. When you reference the map as an iframe you will want to reference it from within the "static" folder which contains images and other static features as below.
 
 
 
