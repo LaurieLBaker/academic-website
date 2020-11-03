@@ -10,5 +10,5 @@ tags:
 - mapping
 - R
 
-title: Afrimapr R building blocks for mapping data in Africa
+title: R building blocks for mapping data in Africa
 ---
