@@ -26,12 +26,9 @@ date_format = "Jan 2006"
   date_start = "2019-09-16"
   date_end = ""
   description = """
-  Responsibilities include:
+  I am a data science lecturer at the Office for National Statistics based at the Data Science Hub at the Foreign Commonwealth and Development Office (FCDO). My role is split between teaching data science and programming to international and national civil servants, working on data science projects, and mentoring data scientists and statistics advisors within the FCDO and in other countries.  
   
-  * Teaching
-  * Projects
-  * Mentoring
-  """
+"""
 
 [[experience]]
   title = "Medical Research Council Transition Fellow"

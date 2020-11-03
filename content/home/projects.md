@@ -33,6 +33,18 @@ subtitle = ""
     name = "Statistics"
     tag = "Statistics"
 
+  [[content.filter_button]]
+    name = "Epidemiology"
+    tag = "Epidemiology"
+    
+  [[content.filter_button]]
+    name = "Marine Biology"
+    tag = "Marine Biology"
+    
+  [[content.filter_button]]
+    name = "Fisheries"
+    tag = "Fisheries"
+
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
