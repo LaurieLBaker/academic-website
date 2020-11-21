@@ -23,11 +23,12 @@ To create the interactive map I used the following libraries. Note that the libr
 
 ```{r}
 
+#devtools::install_github("rstudio/fontawesome")
 library(leaflet)
 library(htmltools)
 library(fontawesome)
 library(htmlwidgets)
-#devtools::install_github("rstudio/fontawesome")
+
 
 
 ```
@@ -35,28 +36,28 @@ library(htmlwidgets)
 
 ## Creating the data frame.
 
-I created a `work` data frame containing details of the latitude and longitude of locations where I've worked. 
+I created a `work` data frame containing details of the latitude and longitude of locations where I've worked. I added a column link where I included html links to different parts of my website. The format is: `"<b><a href='https://LINK.com'>Link Name</a></b>"`
 
 ```{r data, echo = FALSE}
 
 work <- data.frame(
-  "location" = c("Valparaiso, Chile", 
+  "location" = c("Valparaíso, Chile", 
                  "Curitiba, Brasil", 
                  "Sable Island, Nova Scotia", 
                  "Greifswald, Germany",
                  "Arusha, Tanzania",
                  "Kigali, Rwanda",
                  "Kingston, Jamaica",
-                 "Asuncion, Paraguay",
+                 "Asunción, Paraguay",
                  "East Kilbride, Scotland"), 
   "institute" = c("Instituto de Fomento Pesquero", 
-                  "Universidade Federal do Parana", 
+                  "Universidade Federal do Paraná", 
                   "Dalhousie University", 
                   "Friedrich Loeffler Institut",
                   "Nelson Mandela African Institute of Science and Technology",
                   "National Institute of Statistics Rwanda",
                   "Caribbean National Statistical Offices",
-                  "El Ministerio de Salud Publica y Bienestar Social y el Ministerio de Educación y Ciencias - Paraguay",
+                  "El Ministerio de Salud Pública y Bienestar Social y el Ministerio de Educación y Ciencias - Paraguay",
                   "Foreign Commonwealth Development Office"), 
   "work" = c("Chilean Pink Cusk Eel", 
              "Fox rabies", 
@@ -116,7 +117,9 @@ head(work)
 
 ## Creating the labels
 
-Next, I created the labels and icons to use on the map. I wanted to include a label including the institute where the work was carried out and also a link to the relevant page on my website. 
+Next, I created the labels and icons to use on the map. I wanted to include a label including the institute where the work was carried out and also a link to the relevant page on my website. To do this I used the function `sprintf()` and pointed to the relevant columns in my data `institute`, `link`. 
+
+There is some additional styling added using `<strong>` for bold and `<br/>` to create a break so the the Project information is on the next line. 
 
 ```{r labels}
 
@@ -131,10 +134,12 @@ labels <- sprintf(
 
 I wanted to distinguish the different types of projects on the map (using symbols for my projects relating to dish, fish , and gps satellite tracking) and also I wanted to highlight the R training sessions I've run. I used different icons from the `fontawesome` package and used the argument `markerColor` to distinguish between training sessions and projects. 
 
+If you prefer to use the standard marker color you can skip the argument for `markerColor` as shown for `iconset1`. 
+
 
 ```{r icons}
 
-iconset <- awesomeIconList(
+iconset1 <- awesomeIconList(
    fish = makeAwesomeIcon(text = fa("fish")),
    gps = makeAwesomeIcon(text = fa("satellite")),
    disease = makeAwesomeIcon(text = fa("syringe")),
@@ -154,6 +159,14 @@ iconset2 <- awesomeIconList(
 
 # Creating the leaflet map
 
+For the leaflet map I first specified my dataset `leaflet(work)` and then added the `Stamen.Watercolor` and `Stame.TerrainLabels` provider tiles using `addProvideTiles`. 
+
+To explore the different options available you can type `providers$` + TAB and scroll through the different layers. The next layer to be added is the markers using `addAwesomeMarkers` their location is set by the `lon` and `lat` columns of the dataset work. 
+
+The correct icon is added by specifying the column `icon` within `iconset2[icon]`. These match the icons defined so that when the `icon` is "fish" this is effectively `iconset2["fish"]` the marker defined as `fish` is used.
+
+Lastly I specify the popup as my predefined labels, which take the `institute` and `link` specified in my dataset. 
+
 ```{r map, fig.cap='leaflet map'}
 
 
@@ -166,7 +179,7 @@ iconset2 <- awesomeIconList(
 
 ## Getting the leaflet map to render on the website
 
-After you've created the leaflet map, you'll need to save the .html and include it as an iframe. To incorporate this into your website you'll need to put the static folder. The first step is to use `htmlwidgets` and `htmltools` to create a widget. 
+After you've created the leaflet map, you'll need to save the .html and include it as an iframe. To incorporate this into your website you'll need to put it in the static folder that comes with the Hugo Academic theme. The first step is to specify the path.
 
 
 ```{r create directory, eval = FALSE}
@@ -177,16 +190,21 @@ dir.create(widget_path)
 ```
 
 
+The next step is to use `htmlwidgets` and `htmltools` to create a widget using `save widget`.
+
 ```{r save widget, eval = FALSE}
 
 saveWidget(work_map, file.path(widget_path,"work_map.html"))
 
 ```
 
-When you save the map as a widget it creates the `work_map.html` file and also creates a folder with all the packages necessary to create the map. When you reference the map as an iframe you will want to reference it from within the "static" folder which contains images and other static features as below.
+When you save the map as a widget it creates the `work_map.html` file and also creates a folder with all the packages necessary to create the map. When you reference the map as an iframe you will want to reference it from within the "static" folder which contains images and other static features as below. You can specify the size here as well.
 
 
 
 `<iframe seamless = "" width = "100%", height = "500" class="shortcode-iframe" src="/leaflet/work_map.html"></iframe>`
 
+## Wish list
+
+Something that I'd like to change is that currently links are opened within the iframe rather than taking users to the relevant part of my website. This ends up creating a vortex of a website within the website:-). I'd like to change this and also to add an easy way for people to come back to the main map. Any suggestions, send me a DM:-).
 
