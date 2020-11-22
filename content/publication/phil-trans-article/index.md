@@ -16,7 +16,7 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*Journal of Source Themes, 1*(1)'
+publication: '*Philosophical Transactions of the Royal Society B*(1)'
 publication_short: ""
 publication_types:
 - "2"
@@ -26,19 +26,8 @@ summary:
 tags:
 - Source Themes
 title: Optimizing spatial and seasonal deployment of vaccination campaigns to eliminate wildlife rabies
-url_code: ""
-url_dataset: ""
+
 url_pdf: https://royalsocietypublishing.org/doi/10.1098/rstb.2018.0280
 url_project: https://www.researchgate.net/project/Outfoxing-Rabies-Robust-Vaccination-Designs-for-Disease-Elimination
 
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
