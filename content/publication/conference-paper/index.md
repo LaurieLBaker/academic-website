@@ -25,7 +25,7 @@ publication: In *Source Themes Conference*
 publication_short: In *STC*
 publication_types:
 - "1"
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2018-06-01T00:00:00Z"
 slides: 
 summary: 
 tags:
