@@ -29,8 +29,6 @@ tags:
 - Acoustics
 
 title: A novel approach to quantifying the spatiotemporal behavior of instrumented grey seals used to sample the environment
-url_code: ""
-url_dataset: ""
 url_pdf: https://movementecologyjournal.biomedcentral.com/articles/10.1186/s40462-015-0047-4
 url_project: https://www.researchgate.net/project/Outfoxing-Rabies-Robust-Vaccination-Designs-for-Disease-Elimination
 
