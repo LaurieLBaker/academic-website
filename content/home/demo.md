@@ -54,6 +54,3 @@ subtitle = ""
 <iframe seamless = "" width = "100%", height = "500" class="shortcode-iframe" src="/leaflet/work_map.html"></iframe>
 
 
-{{% alert note %}}
-Website under construction.
-{{% /alert %}}

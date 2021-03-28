@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Head of Faculty"
+  title = "Head of Faculty (Temporary Promotion)"
   company = "Data Science Campus, Office for National Statistics"
   company_url = ""
   location = "United Kingdom"
@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 
-As Head of Faculty (temporary promotion) at the Data Science Campus, I lead a team of three lecturers and one programme officer. Our team develops and delivers a range of data science and capacity-building programmes including a two-year training programme for graduate data scientists. We also develop bespoke programmes, working with national and international partners to help them build their organisation's data science skills. 
+As Head of Faculty at the Data Science Campus, I lead a team of four lecturers and one programme officer. Our team develops and delivers a range of data science and capacity-building programmes including a two-year training programme for graduate data scientists. We also develop bespoke programmes, working with national and international partners to help them to build their organisation's data science skills. 
   
 """
 

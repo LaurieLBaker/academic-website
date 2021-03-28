@@ -2,13 +2,12 @@
 date: "2020-11-22T00:00:00Z"
 draft: false
 lastmod: "2020-11-22T00:00:00Z"
-linktitle: An Example Course
+linktitle: RStudio Tidyverse Teaching Exam
 menu:
   example:
     name: Overview
     weight: 1
-summary: Learn how to use Academic's docs layout for publishing online courses, software
-  documentation, and tutorials.
+summary: This webpage includes details of the RStudio Instructor Teaching Exam.
 title: Overview
 toc: true
 type: docs

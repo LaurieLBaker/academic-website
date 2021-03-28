@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include disease ecology, marine biology, and teaching.
+bio: "My research interests include disease ecology, marine biology, and teaching. Pronouns: She/her." 
 education:
   courses:
   - course: PhD in Biology
@@ -43,6 +43,6 @@ user_groups:
 - Visitors
 ---
 
-I am a Data Science Lecturer at the [Data Science Campus](http://datasciencecampus.ons.gov.uk/), Office for National Statistics and an Affiliate Researcher at the University of Glasgow. I am a disease ecologist and marine biologist by training with a keen interest in programming, data science, and the use of novel data sources in research.
+I am a Data Science Lecturer at the [Data Science Campus](http://datasciencecampus.ons.gov.uk/), Office for National Statistics and an Affiliate Researcher at the University of Glasgow. I am a disease ecologist and marine biologist by training with a keen interest in programming, data science, and the use of novel data sources in research. Keep up with my data science explorations and science communication in [posts](https://lauriebaker.rbind.io/#posts) and teaching in [courses](https://lauriebaker.rbind.io/courses). You can find out more about my work in [projects](https://lauriebaker.rbind.io/#projects). 
 
 
