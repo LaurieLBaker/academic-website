@@ -21,8 +21,8 @@ image:
 links:
 projects:
 - internal-project
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication: 
+publication_short: 
 publication_types:
 - "1"
 publishDate: "2018-06-01T00:00:00Z"

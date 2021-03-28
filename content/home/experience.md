@@ -19,12 +19,26 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Head of Faculty (Temporary Promotion)"
+  company = "Data Science Campus, Office for National Statistics"
+  company_url = ""
+  location = "United Kingdom"
+  date_start = "2021-01-01"
+  date_end = ""
+  description = """
+
+As Head of Faculty at the Data Science Campus, I lead a team of four lecturers and one programme officer. Our team develops and delivers a range of data science and capacity-building programmes including a two-year training programme for graduate data scientists. We also develop bespoke programmes, working with national and international partners to help them to build their organisation's data science skills. 
+  
+"""
+
+
+[[experience]]
   title = "Data Science Lecturer"
   company = "Data Science Campus, Office for National Statistics"
   company_url = ""
   location = "United Kingdom"
   date_start = "2019-09-16"
-  date_end = ""
+  date_end = "2021-01-01"
   description = """
   I am a data science lecturer at the Office for National Statistics. I am based at the Data Science Hub Foreign Commonwealth and Development Office (FCDO). My role is split between teaching data science and programming to international and national civil servants, working on data science projects related to the UN Sustainable Development Goals, and mentoring data scientists and statistics advisors within the FCDO and in other countries.  
   
