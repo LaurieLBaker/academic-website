@@ -7,6 +7,10 @@ tags:
 - R Markdown
 - leaflet
 - hugo
+header:
+  image: "leaflet_map.PNG"
+  caption: "Map of world"
+  peview_only: "leaflet_map.PNG"
 ---
 
 ```{r setup, include=FALSE}
@@ -206,5 +210,5 @@ When you save the map as a widget it creates the `work_map.html` file and also c
 
 ## Wish list
 
-Something that I'd like to change is that currently links are opened within the iframe rather than taking users to the relevant part of my website. This ends up creating a vortex of a website within the website:-). I'd like to change this and also to add an easy way for people to come back to the main map. Any suggestions, send me a DM:-).
+Something that I'd like to change is that currently links are opened within the iframe rather than taking users to the relevant part of my website. This ends up creating a vortex of a website within the website. I'd like to change this and also to add an easy way for people to come back to the main map. Any suggestions, send me a DM:-).
 
