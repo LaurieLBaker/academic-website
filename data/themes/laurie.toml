@@ -7,7 +7,7 @@ name = "My Theme: Laurie"
 light = true
 
 # Primary
-primary = "#1eb6a7" # changes colors of links
+primary = "#26867c" # changes colors of links
 
 # Menu
 menu_primary = "#122140"

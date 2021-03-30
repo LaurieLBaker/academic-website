@@ -1,12 +1,12 @@
 ---
 header:
-  caption: ""
-  image: ""
+  caption: "Map of the world"
+  image: "featured.PNG"
 layout: docs
 title: Courses
 ---
 
-I am certified [RStudio Tidyverse Instructor](https://education.rstudio.com/trainers/people/baker+laurie/). I teach several courses at the [Data Science Campus](https://datasciencecampus.ons.gov.uk/capability/) in R and Python including:
+I am a certified [RStudio Tidyverse Instructor](https://education.rstudio.com/trainers/people/baker+laurie/). I teach several courses at the [Data Science Campus](https://datasciencecampus.ons.gov.uk/capability/) in R and Python including:
 
   - Introduction to R (Links coming soon!)
   - Data Wrangling in R ([Github slides](https://datasciencecampus.github.io/DSCA_data_wrangling_with_r/slides/data_wrangling_slides.html#1); [Github course website](https://datasciencecampus.github.io/DSCA_data_wrangling_with_r/))
