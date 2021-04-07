@@ -6,7 +6,6 @@ education:
   courses:
   - certificate: RStudio Tidyverse Instructor
     institution: RStudio
-    url_institution: ""
     year: 2020
   - course: PhD in Biology
     institution: University of Glasgow
