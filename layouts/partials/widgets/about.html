@@ -98,6 +98,17 @@
               <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
             </div>
+          {{ end }}
+          {{ if .certificate }}
+            <i class="fa-li fas fa-certificate"></i>
+            <div class="description">
+              <p class="course">{{ .certificate }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution">{{ .institution | markdownify }}</p>
+              <!--https://github.com/gcushen/hugo-academic/pull/951#issue-255104712-->
+              <!--https://github.com/spcanelon/silvia/issues/19-->
+            </div>
+            {{ end }}
+            
           </li>
           {{ end }}
         </ul>
