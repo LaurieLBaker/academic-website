@@ -4,6 +4,10 @@ authors:
 bio: "My research interests include disease ecology, marine biology, and teaching. Pronouns: She/her." 
 education:
   courses:
+  - certificate: RStudio Tidyverse Instructor
+    institution: RStudio
+    year: 2020
+    url_institution: " "
   - course: PhD in Biology
     institution: University of Glasgow
     year: 2019
