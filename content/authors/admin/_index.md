@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: "My research interests include disease ecology, marine biology, and teaching. Pronouns: She/her." 
+bio: "My research interests include disease ecology, marine biology, and teaching. Pronouns: She/her/hers." 
 education:
   courses:
   - certificate: RStudio Tidyverse Instructor
@@ -24,9 +24,9 @@ interests:
 - Marine Biology
 - Open Science
 organizations:
-- name: Data Science Campus, Office for National Statistics
-  url: "http://datasciencecampus.ons.gov.uk/"
-role: Data Science Lecturer
+- name: Bates College
+  url: "https://www.bates.edu/"
+role: Visiting Assistant Professor of Digital and Computational Studies
 social:
 - icon: envelope
   icon_pack: fas
@@ -47,6 +47,6 @@ user_groups:
 - Visitors
 ---
 
-I am a Data Science Lecturer at the [Data Science Campus](http://datasciencecampus.ons.gov.uk/), Office for National Statistics and an Affiliate Researcher at the University of Glasgow. I am a disease ecologist and marine biologist by training with a keen interest in programming, data science, and the use of novel data sources in research. Keep up with my data science explorations and science communication in [posts](#posts). You can find out more about my research in [projects](#projects) and my teaching in [courses](/courses). 
+I am a Visiting Assistant Professor at [Bates College](https://www.bates.edu/) in Maine and an Affiliate Researcher at the University of Glasgow. I am a disease ecologist and marine biologist by training with a keen interest in programming, data science, and the use of novel data sources in research. You can keep up with my data science explorations and science communication in [posts](#posts). Find out more about my research in [projects](#projects) and my teaching in [courses](/courses). 
 
 
