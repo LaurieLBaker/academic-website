@@ -1,1 +1,3 @@
 http://lauriebaker.rbind.io/*    https://lauriebaker.rbind.io/:splat  301!
+https://upbeat-brown-81cd32.netlify.app*  https://lauriebaker.rbind.io/:splat  301!
+http://upbeat-brown-81cd32.netlify.app*   https://lauriebaker.rbind.io/:splat  301!
