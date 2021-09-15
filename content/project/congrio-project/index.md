@@ -20,7 +20,7 @@ tags:
 title: Fisheries
 publishDate: "2021-09-15T00:00:00Z"
 url_code: ""
-url_pdf: "undergraduate_thesis.pdf"
+url_pdf: "project/congrio-project/undergraduate_thesis.pdf"
 url_slides: ""
 url_video: ""
 ---
