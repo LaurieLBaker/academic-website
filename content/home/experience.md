@@ -19,22 +19,35 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Visiting Assistant Professor of Digital and Computational Studies"
-  company = "Bates College"
-  company_url = ""
+  title = "Professor of Computer Science"
+  company = "College of the Atlantic"
+  company_url = "https://www.coa.edu"
   location = "Maine, USA"
-  date_start = "2021-08-01"
+  date_start = "2022-09-01"
   date_end = ""
   description = """
 
-This fall I'll be teaching DCS 109. Introduction to Computing and Programming and DCS 210. Programming for Data Analysis and Visualization at the undergraduate level.
+I'm excited to join College of the Atlantic in September 2022 as Professor of Computer Science. 
+  
+"""
+
+[[experience]]
+  title = "Visiting Assistant Professor of Digital and Computational Studies"
+  company = "Bates College"
+  company_url = "https://www.bates.edu"
+  location = "Maine, USA"
+  date_start = "2021-08-01"
+  date_end = "2022-07-31"
+  description = """
+
+At Bates I taught courses in Python and R including: DCS 109. Introduction to Computing and Programming (x2), [DCS 210. Programming for Data Analysis and Visualization](https://dcs210.netlify.app) (x2), and a 1-month intensive short-term course [DC/MA s34. Community-Engaged Data Science](https://community-engaged-data-science.netlify.app).
   
 """
 
 [[experience]]
   title = "Head of Faculty (Temporary Promotion)"
   company = "Data Science Campus, Office for National Statistics"
-  company_url = ""
+  company_url = "https://datasciencecampus.ons.gov.uk/"
   location = "United Kingdom"
   date_start = "2021-01-01"
   date_end = "2021-07-06"
@@ -48,7 +61,7 @@ As Head of Faculty at the Data Science Campus, I lead a team of four lecturers a
 [[experience]]
   title = "Data Science Lecturer"
   company = "Data Science Campus, Office for National Statistics"
-  company_url = ""
+  company_url = "https://datasciencecampus.ons.gov.uk/"
   location = "United Kingdom"
   date_start = "2019-09-16"
   date_end = "2021-01-01"
