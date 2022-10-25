@@ -1,229 +1,337 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>https://lauriebaker.rbind.io/courses/example/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/courses/example/example1/</loc>
+    <lastmod>2020-11-05T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/dr.-laurie-baker/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/</loc>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication-type/2/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/authors/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-laurie-baker/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-paula-moraga/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/post/r-spatial/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/maps/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/open-data/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/post/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication_types/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/r-programming/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication/rspatial-article/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/spatial-data/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tags/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/un-sustainable-development-goals-sdgs/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/visualization/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/courses/</loc>
+    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/categories/</loc>
+    <lastmod>2020-11-02T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/post/where_work/</loc>
+    <lastmod>2020-11-02T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/hugo/</loc>
+    <lastmod>2020-11-02T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/leaflet/</loc>
+    <lastmod>2020-11-02T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/category/r/</loc>
+    <lastmod>2020-11-02T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/r-markdown/</loc>
+    <lastmod>2020-11-02T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/clustering/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/fisheries/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/project/congrio-project/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/generalized-additive-modelling/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/length-at-50-maturity/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/project/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/survival-analysis/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-conrad-freuling/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-laurie-baker/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-thomas-muller/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication/plos-article/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication/phil-trans-article/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/prof.-jason-mathiopoulos/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/prof.-katie-hampson/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/source-themes/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-elias-krainski/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/micaela-de-la-puente-leon/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/prof.-havard-rue/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/prof.-jason-matthiopoulos/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/rabia/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/talk/rabia_zorros/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/rabies/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/talk/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/vacunacion/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/zorros/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/slides/example/</loc>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication-type/1/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/disease-ecology/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/epidemiology/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication/conference-paper/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/patrick-wysocki/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/ronald-schroder/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/spatial-statistics/</loc>
+    <lastmod>2018-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/post/foxes/</loc>
+    <lastmod>2016-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/post/r-jedi/</loc>
+    <lastmod>2016-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/post/elephant/</loc>
+    <lastmod>2015-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication/movement-ecology/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/acoustics/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-damian-c.-lidgard/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-ian-d.-jonsen/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/halichoerus-grypus/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/home-range/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/prof-w.-don-bowen/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/prof.-joanna-e.-mills-flemming/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/prof.-sara-j.-iverson/</loc>
+    <lastmod>2015-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/baker-ll/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/bowen-wd/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/iverson-sj/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/jonsen-id/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/lidgard-dc/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/talk/example/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/mamiferos-marinos/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/mills-flemming-ja/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/transceptores-acusticos/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/webber-de/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/afrimapr/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/gps-tags/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/project/bioprobe-project/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/learnr/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/mapping/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/open-access/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/r/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/project/afrimapr-project/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/scotian-shelf/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/telemetry/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/tutorial/</loc>
+    <lastmod>2014-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/acoustic-tag/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/detection-efficiency/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-dale-m.-webber/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication/plos-seal/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/prof.-william-d.-bowen/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/vemco-mobile-transceivers-vmt/</loc>
+    <lastmod>2014-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/andres-flores/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/claudio-gatica/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-jc-quiroz/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-mauricio-a.-barrientos/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/dr.-rodrigo-wiff/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/renato-cespedes/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/publication/enviro-biol-fishes/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/vilma-ojeda/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/bayesian-state-space-modelling/</loc>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/project/rabies-project/</loc>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/tag/vaccination/</loc>
+  </url><url>
+    <loc>https://lauriebaker.rbind.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
-  
-  <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/terms/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/academic/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/demo/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
-  </url>
-  
 </urlset>

@@ -1,35 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Academic</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | Laurie Louise Baker</title>
+    <link>https://lauriebaker.rbind.io/project/</link>
+      <atom:link href="https://lauriebaker.rbind.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Laurie Baker, 2022</copyright><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://lauriebaker.rbind.io/images/icon_hue23dc9bb0d93d4d3ad76535bef8e6086_9770442_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://lauriebaker.rbind.io/project/</link>
     </image>
     
     <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
+      <title>Fisheries</title>
+      <link>https://lauriebaker.rbind.io/project/congrio-project/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://lauriebaker.rbind.io/project/congrio-project/</guid>
+      <description>&lt;p&gt;I studied the factors influencing a fisher&amp;rsquo;s catch intention in the Chilean industrial longline fishery for which I was awarded the Margaret Lang Award for best undergraduate dissertation in Marine Biology at the University of St. Andrews. In the same year, I was awarded a small ecological project grant from the British Ecological Society to visit Dr. Rodrigo Wiff at the Instituto de Fomento Pesquero in Valparaíso and Claudio Gatica at the Instituto de Investigación Pesquera (INPESCA) in Talcahuano, Chile to study the reproductive ecology of the female pink cusk-eel (&lt;em&gt;Genypterus blacodes&lt;/em&gt;: Congrio dorado).&lt;/p&gt;
+&lt;p&gt;In the four months I spent in Chile, I participated in a range of field work including aboard a 50m trawler fishing off the coast of Concepción for humboldt squid (&lt;em&gt;Dosidicus gigas&lt;/em&gt;: Jibia) and 3 days aboard an artisanal vessel in Chiloé fishing for Chilean King Crab (&lt;em&gt;Lithodes santolla&lt;/em&gt;: Centolla).&lt;/p&gt;
+&lt;img src=&#34;congrio_centolla.jpg&#34; alt = &#34;Congrio and Centolla on the Rainbow Warrior&#34;&gt;
+&lt;p&gt;Like the Scottish Haggis, Congrio Dorado has a famous &amp;ldquo;Ode&amp;rdquo; written about it by one of Chile&amp;rsquo;s most famous poets, Pablo Neruda 
+&lt;a href=&#34;https://www.neruda.uchile.cl/obra/obraodaselementales2.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oda al Caldillo de Congrio&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grey Seals on the Scotian Shelf</title>
+      <link>https://lauriebaker.rbind.io/project/bioprobe-project/</link>
+      <pubDate>Tue, 30 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://lauriebaker.rbind.io/project/bioprobe-project/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>R building blocks for mapping data in Africa</title>
+      <link>https://lauriebaker.rbind.io/project/afrimapr-project/</link>
+      <pubDate>Tue, 30 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://lauriebaker.rbind.io/project/afrimapr-project/</guid>
+      <description>&lt;p&gt;Together with afrimapr I have been building an open access interactive learnr tutorial, &lt;strong&gt;afrijoin&lt;/strong&gt; on spatial joins in R. You can track our progress on 
+&lt;a href=&#34;https://github.com/afrimapr/afrijoin&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;img src=&#34;afrijoin_preview.PNG&#34; alt = &#34;Preview of our interactive learnr tutorial afrijoin which covers spatial joins in R&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Outfoxing Rabies</title>
+      <link>https://lauriebaker.rbind.io/project/rabies-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lauriebaker.rbind.io/project/rabies-project/</guid>
+      <description>&lt;p&gt;Rabies is a deadly viral infection that kills over 50,000 people each year. Mass vaccination can greatly reduce the burden of vaccine-preventable diseases such as rabies, however, there is relatively little scientific guidance as to how long control programmes must operate and how they should be best implemented to achieve elimination. My PhD and Postdoc focused on two pivotal questions in infectious disease ecology:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;What are the underlying determinants of disease persistence?&lt;/li&gt;
+&lt;li&gt;How can vaccination strategies be optimised to eliminate infection?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To answer these questions, I analysed a rich and highly resolved spatial dataset of fox rabies cases and oral rabies vaccination (ORV) programmes throughout Western Europe. The long-term, large-scale nature of these data provides a unique opportunity to improve our understanding of wildlife rabies dynamics in response to vaccination using novel spatial modeling techniques.&lt;/p&gt;
+&lt;p&gt;I developed a cutting-edge hierarchical Bayesian state-space model that incorporates process and
+observation uncertainty to study fox rabies persistence
+in response to the timing of vaccination campaigns
+over the last 30 years in Germany
+&lt;a href=&#34;http://lauriebaker.rbind.io/publication/plos-article/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Baker et al. 2020)&lt;/a&gt;. I then used this
+model to explore the optimal timing of vaccination
+campaigns and the impact of missed campaigns on
+the time required to eliminate the disease through
+simulation 
+&lt;a href=&#34;http://lauriebaker.rbind.io/publication/phil-trans-article/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(Baker et al. 2019)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During my PhD and Postdoc, I collaborated with Prof. ‪Håvard Rue ‬at the Norwegian University of Science and Technology (NTNU) and King
+Abdullah University of Science and Technology (KAUST) and Dr. Elias Krainski from the Universidade Federal do Paraná (UFPR) in Brazil.&lt;/p&gt;
+&lt;p&gt;During my MRC fellowship I developed a local 
+&lt;a href=&#34;http://lauriebaker.rbind.io/publication/conference-paper/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;spatiotemporal model&lt;/a&gt; of fox rabies dynamics fit to the GPS locations of rabies cases using a stochastic partial differential equation (SPDE) approach in the integrated nested Laplace approximation (INLA) framework. By simultaneously modeling the spatial and temporal dynamics of disease spread, I was able to capture key aspects of rabies dynamics to inform ongoing vaccination campaigns in Eastern Europe and Russia.&lt;/p&gt;
 </description>
     </item>
     
