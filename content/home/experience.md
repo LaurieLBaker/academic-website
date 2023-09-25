@@ -45,7 +45,7 @@ At Bates I taught courses in Python and R including: DCS 109. Introduction to Co
 """
 
 [[experience]]
-  title = "Head of Faculty (Temporary Promotion)"
+  title = "Head of Faculty"
   company = "Data Science Campus, Office for National Statistics"
   company_url = "https://datasciencecampus.ons.gov.uk/"
   location = "United Kingdom"

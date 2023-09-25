@@ -17,10 +17,11 @@ In 2022, I joined College of the Atlantic as a Professor of Computer Science. I 
 ## Undergraduate Courses
 
 ### College of the Atlantic
-- [Data Science 1 - Data Visualization](https://coa-dataviz.netlify.app/)
-- Introduction to Programming and Computing (Winter 2022)
-- Data Science 2 - Data Analysis (Spring 2022)
-- Epidemiological Modelling (Spring 2022)
+- [Data Science 1 - Data Visualization](https://coa-dataviz.netlify.app/) (Fall 2022, Winter 2023, Fall 2023, Winter 2024)
+- [Introduction to Programming and Computing](https://coa-intro-cs.netlify.app) (Winter 2022)
+- [Data Science 2 - Data Analysis](https://coa-data-analysis.netlify.app) (Spring 2022)
+- [Epidemiological Modelling](https://coa-epi-modelling.netlify.app) (Spring 2022)
+- [Navigating Change](https://coa-navigating-change.netlify.app) (Fall 2023)
 
 
 ### Bates College
