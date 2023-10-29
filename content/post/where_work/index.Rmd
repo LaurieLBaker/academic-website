@@ -1,7 +1,7 @@
 ---
 title: 'Creating the where I work leaflet map'
 author: "Laurie Baker"
-date: '2020-11-02T21:13:14-05:00'
+date: '2023-10-29T21:13:14-05:00'
 categories: R
 tags:
 - R Markdown
@@ -18,6 +18,8 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 
 In this post I'll describe how I created my "Where I work" map using `leaflet` and how to include it in the hugo academic theme as an iframe. 
+
+N.B. That since writing this tutorial the `Stamen.Watercolor` provider tile is no longer supported. I have updated the tutorial to include the `OpenStreetMap` tile.
 
 <iframe seamless = "" width = "100%" height = "500" class="shortcode-iframe" src="/leaflet/work_map.html"></iframe>
 
@@ -175,7 +177,7 @@ Lastly I specify the popup as my predefined labels, which take the `institute` a
 
 
 (work_map <- leaflet(work) %>% 
-              addProviderTiles(providers$Stamen.Watercolor) %>%
+              addProviderTiles(providers$OpenStreetMap) %>%
               addProviderTiles(providers$Stamen.TerrainLabels) %>%
               addAwesomeMarkers(~lon, ~lat, icon = ~iconset2[icon], popup = ~labels))
 
@@ -188,7 +190,7 @@ After you've created the leaflet map, you'll need to save the .html and include 
 
 ```{r create directory, eval = FALSE}
 
-widget_path <- file.path("../../static/leaflet")
+widget_path <- file.path("../../../static/leaflet")
 
 dir.create(widget_path)
 ```

@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Professor of Computer Science"
+  title = "Assistant Professor of Computer Science"
   company = "College of the Atlantic"
   company_url = "https://www.coa.edu"
   location = "Maine, USA"
@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 
-I'm excited to join College of the Atlantic in September 2022 as Professor of Computer Science. 
+I'm excited to join College of the Atlantic in September 2022 as Professor of Computer Science.
   
 """
 

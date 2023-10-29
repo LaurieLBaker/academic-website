@@ -8,7 +8,7 @@ education:
     institution: RStudio
     year: 2020
     url_institution: " "
-  - course: PhD in Biology
+  - course: PhD in Ecology and Evolution
     institution: University of Glasgow
     year: 2019
   - course: MSc in Marine Biology
@@ -26,7 +26,7 @@ interests:
 organizations:
 - name: College of the Atlantic
   url: "https://www.coa.edu"
-role: Professor of Computer Science
+role: Assistant Professor of Computer Science
 social:
 - icon: envelope
   icon_pack: fas
@@ -47,6 +47,6 @@ user_groups:
 - Visitors
 ---
 
-I am a Professor of Computer Science at [College of the Atlantic](https://www.coa.edu) in Maine and an Affiliate Researcher at the University of Glasgow. I am a disease ecologist and marine biologist by training with a keen interest in programming, data science, and the use of novel data sources in research. You can keep up with my data science explorations and science communication in [posts](#posts). Find out more about my research in [projects](#projects) and my teaching in [courses](/courses). 
+I am an Assistant Professor of Computer Science at [College of the Atlantic](https://www.coa.edu) in Maine and an Affiliate Researcher at the University of Glasgow. I am a disease ecologist and marine biologist by training with a keen interest in programming, data science, and the use of novel data sources in research. You can keep up with my data science explorations and science communication in [posts](#posts). Find out more about my research in [projects](#projects) and my teaching in [courses](/courses). 
 
 
