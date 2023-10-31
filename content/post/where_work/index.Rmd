@@ -177,8 +177,7 @@ Lastly I specify the popup as my predefined labels, which take the `institute` a
 
 
 (work_map <- leaflet(work) %>% 
-              addProviderTiles(providers$OpenStreetMap) %>%
-              addProviderTiles(providers$Stamen.TerrainLabels) %>%
+              addProviderTiles(providers$OpenStreetMap) %>% %>%
               addAwesomeMarkers(~lon, ~lat, icon = ~iconset2[icon], popup = ~labels))
 
 ```
