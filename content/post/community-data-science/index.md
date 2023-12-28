@@ -2,7 +2,10 @@
 date: "2023-11-20"
 iframe: "https://coa-community-data-science.netlify.app"
 math: true
-title: Introducing the Community Engaged Data Science Program at COA
+image:
+  caption: "In Stonington on a field trip with the course Navigating Change"
+summary: With generous support from a [Henry David Thoreau Faculty Grant](https://www.thoreauscholar.org/faculty-grant-profiles/community-engaged-data-science-program) I will be launching a new Community-Engaged Data Science program at the College of the Atlantic this spring. The focus of the program for the 2023-2024 academic year is to connect students with local environmental organizations and community partners to analyze regional environmental issues and develop data-driven environmental solutions.
+title: Henry David Thoreau Faculty Grant Awarded for Community Engaged Data Science Program
 ---
 
 As a graduate student I participated in several [data study groups](https://www.turing.ac.uk/collaborate-turing/data-study-groups) at the Alan Turing Institute in London. The data study groups brought together PhD students, postdocs, and researchers from a range of disciplines and institutions to work with industry, government, and non-profits on challenging data science questions ranging from counting seals from satellite images in the Antarctic to predicting mobile phone game switching behavior. These week-long "collaborative hackathons" were some of the highlights of my PhD and inspired me to embark on a career in data science.

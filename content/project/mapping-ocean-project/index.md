@@ -8,7 +8,7 @@ tags:
 - Oral History
 - Historical Fisheries
 - Mapping Ocean Stories
-title: Mapping Ocean Stories - Understanding the Current and Past Uses of Frenchman Bay
+title: Mapping Ocean Stories - Understanding the Current and Past Uses of Frenchman and Penobscot Bays
 ---
 
 MOS is a collaborative project between the College of the Atlantic, Island Institute, Maine Sea Grant and The First Coast focused on documenting the heritage of Maine island and coastal communities and their connection to the ocean through oral histories. Mapping Ocean Stories' goal is to amplify the voices of coastal communities and unite them to provide a broader picture of the changing environment and adaptations in coastal areas of Downeast Maine over the last century.
