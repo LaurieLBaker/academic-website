@@ -1,7 +1,7 @@
 ---
 title: 'Creating the where I work leaflet map'
 author: "Laurie Baker"
-date: '2023-10-29T21:13:14-05:00'
+date: '2020-10-29T21:13:14-05:00'
 categories: R
 tags:
 - R Markdown
@@ -177,7 +177,7 @@ Lastly I specify the popup as my predefined labels, which take the `institute` a
 
 
 (work_map <- leaflet(work) %>% 
-              addProviderTiles(providers$OpenStreetMap) %>% %>%
+              addProviderTiles(providers$OpenStreetMap) %>%
               addAwesomeMarkers(~lon, ~lat, icon = ~iconset2[icon], popup = ~labels))
 
 ```
