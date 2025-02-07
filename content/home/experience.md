@@ -37,7 +37,7 @@ I'm excited to join Bates College in December 2024 as an Assistant Professor of 
   company_url = "https://www.coa.edu"
   location = "Maine, USA"
   date_start = "2022-09-01"
-  date_end = "2022-11-30"
+  date_end = "2024-11-30"
   description = """
 
 At College of the Atlantic I taught introductory and advanced computer science and data science courses
