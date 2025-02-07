@@ -19,6 +19,19 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Assistant Professor of Mathematics"
+  company = "Bates College"
+  company_url = "https://www.bates.edu"
+  location = "Maine, USA"
+  date_start = "2024-12-01"
+  date_end = ""
+  description = """
+
+I'm excited to join Bates College in December 2024 as an Assistant Professor of Mathematics.
+
+"""
+
+[[experience]]
   title = "Assistant Professor of Computer Science"
   company = "College of the Atlantic"
   company_url = "https://www.coa.edu"
@@ -27,7 +40,10 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
 
-I'm excited to join College of the Atlantic in September 2022 as Professor of Computer Science.
+At College of the Atlantic I taught introductory and advanced computer science and data science courses
+including [ES 1085 Data Science 1](https://coa-dataviz.netlify.app); [ES 3098 Data Science 2](https://coa-data-analysis.netlify.app), [ES 1087 Introduction
+to Programming and Computing](https://coa-intro-cs.netlify.app), [ES 3087 Community-Engaged Data Science](https://coa-community-data-science.netlify.app), [ES
+3097 Introduction to Epidemiological Modelling](https://coa-epi-modelling.netlify.app) and [HS 3122 Navigating Change](https://coa-navigating-change.netlify.app).
   
 """
 
